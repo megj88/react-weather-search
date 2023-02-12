@@ -12,5 +12,5 @@ export default function FormatedDate(props) {
         hours = `0${hours}`;
     }
 
-    return `${day} ${hours}:${minutes}`
+    return (`${day} ${hours}:${minutes}`)
 }

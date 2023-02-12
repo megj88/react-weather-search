@@ -11,7 +11,11 @@ background: #FFFBF5;
 
 }
 
-
+.Weather canvas {
+    margin-right: 5px;
+    margin-top: 5px;
+    display: inline-block;
+}
 
 .Weather h1 {
     color: #272044;
@@ -33,11 +37,7 @@ background: #FFFBF5;
     padding: 0;
 }
 
-.icon {
-    font-size: 64px;
-    font-weight: 100;
-    margin-right: 10px;
-}
+
 
 .unit {
     font-size: 16px;

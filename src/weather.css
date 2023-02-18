@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
-background: #FFFBF5;
+background: #F5E9CF;
+color: #F5E9CF;
+font-family: 'Poppins', sans-serif;
 }
 
 .Weather {
-    border: 1px solid #674188;
-    background: white;
-    margin: 30 auto;
-    padding: 16px;
-    border-radius: 8px;
+    background: #4D455D;
+    border: 1px solid #4D455D;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 16px;
 
 }
 
@@ -18,18 +23,15 @@ background: #FFFBF5;
 }
 
 .Weather h1 {
-    color: #272044;
     display: block;
     margin: 20px 0 0 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 52px;
     line-height: 1.5;
-    font-weight: 100;
+    font-weight: 700;
 }
 
 .Weather li {
-    color: #20262E;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 200;
     line-height: 1.5;
     list-style: none;
@@ -37,7 +39,26 @@ background: #FFFBF5;
     padding: 0;
 }
 
+a {
+    color: #E96479;
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration: overline;
+    color: #E96479;
+}
+
+.btn {
+    background-color: #E96479;
+    border: 1px solid #E96479;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid #E96479;
+    color: #E96479;
+}
 
 .unit {
     font-size: 16px;
@@ -52,7 +73,6 @@ background: #FFFBF5;
 
 .Weather .temperature {
     font-weight: 400;
-    color: black;
     font-size: 64px;
     line-height: 64px;
 }
